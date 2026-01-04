@@ -41,7 +41,7 @@ jobs:
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: update-deployment.yaml
-          repo: YOUR_USERNAME/example-environment
+          repo: NEJ-Work/example-environment
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           ref: main
           inputs: |
